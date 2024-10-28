@@ -1,0 +1,88 @@
+<html>
+<head>
+
+		<link rel="stylesheet" href="css/payment.css">
+
+</head>
+<body>
+
+<div class="container">
+
+		<form action="checkout.php" method="POST">
+
+				<div class="row">
+
+						<div class="col">
+
+								<h3 class="title">billing address</h3>
+
+								<div class="inputBox">
+										<span>full name :</span>
+										<input name="fullname" type="text" >
+								</div>
+								<div class="inputBox">
+										<span>email :</span>
+										<input name="email" type="email">
+								</div>
+								<div class="inputBox">
+										<span>address :</span>
+										<input name="address" type="text" >
+								</div>
+								<div class="inputBox">
+										<span>city :</span>
+										<input name="city" type="text" >
+								</div>
+										
+								<div class="inputBox">
+										<span>zip code :</span>
+										<input name="zipcode" type="text">
+								</div>
+
+									
+
+						</div>
+
+						<div class="col">
+
+								<h3 class="title">payment</h3>
+
+								<div class="inputBox">
+										<span>cards  :</span>
+										<img src="image/images/card_img.png" alt="">
+								</div>
+								<div class="inputBox">
+										<span>name on card :</span>
+										<input name="cardname" type="text">
+								</div>
+								<div class="inputBox">
+										<span>credit card number :</span>
+										<input name="cardnumber" type="number" >
+								</div>
+								<div class="inputBox">
+										<span>exp month :</span>
+										<input name="expmonth" type="text" >
+								</div>
+
+								<div class="flex">
+										<div class="inputBox">
+												<span>exp year :</span>
+												<input name="expyear" type="number" >
+										</div>
+										<div class="inputBox">
+												<span>CVV :</span>
+												<input name="cvvnumber" type="text" >
+										</div>
+								</div>
+
+						</div>
+
+				</div>
+
+				<input type="submit" value="proceed to checkout" class="submit-btn">
+
+		</form>
+
+</div>
+
+</body>
+</html>
